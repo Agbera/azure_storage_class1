@@ -3,7 +3,7 @@ resource "azurerm_resource_group" "lagos" {
   location = "West Europe"
 }
 
-resource "azurerm_service_plan" "mcit" {
+resource "azurerm_service_plan" "mcit023" {
   name                = "mcit-plan"
   resource_group_name = azurerm_resource_group.mcit.name
   location            = azurerm_resource_group.mcit.location

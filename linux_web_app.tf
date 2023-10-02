@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "linuxwebapp" {
-  name     = "example-resources"
+  name     = "mcit-resources"
   location = "West Europe"
 }
 
